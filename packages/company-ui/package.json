@@ -25,5 +25,6 @@
   },
   "dependencies": {
     "@monorepo/company-util": "file:packages/company-util"
-  }
+  },
+  "gitHead": "c81024a411dee63e51a1da4f7669179aa22bc98c"
 }
