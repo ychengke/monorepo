@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/company-ui",
+  "name": "company-ui",
   "version": "0.5.0",
   "description": "> TODO: description",
   "author": "ckyang <ckyang@travelsky.com.cn>",
@@ -27,7 +27,7 @@
     "url": "https://github.com/ychengke/monorepo/issues"
   },
   "dependencies": {
-    "@monorepo/company-util": "file:packages/company-util"
+    "company-util": "0.5.0"
   },
-  "gitHead": "4dcb5a499e9a145c6c45e65dc6e168b4ee3bec7b"
+  "gitHead": "8be4119d77547f6cd3a7302838d2bc22551711a4"
 }

@@ -7,6 +7,6 @@ assert.strictEqual(companyUi(), 'Hello from companyUi');
 console.info('companyUi tests passed');
 
 
-const companyUtil = require("@monorepo/company-util")
+const companyUtil = require("company-util")
 assert.strictEqual(companyUtil(), 'Hello from companyUtil');
 console.info('companyUtil tests passed');
