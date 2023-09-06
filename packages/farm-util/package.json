@@ -1,11 +1,11 @@
 {
-  "name": "company-ui",
+  "name": "farm-util",
   "version": "0.9.0",
   "description": "> TODO: description",
   "author": "ckyang <ckyang@travelsky.com.cn>",
   "homepage": "https://github.com/ychengke/monorepo#readme",
   "license": "ISC",
-  "main": "lib/company-ui.js",
+  "main": "lib/company-util.js",
   "publishConfig": {
     "access": "public"
   },
@@ -21,13 +21,13 @@
     "url": "git+https://github.com/ychengke/monorepo.git"
   },
   "scripts": {
-    "test": "node ./__tests__/company-ui.test.js"
+    "test": "node ./__tests__/company-util.test.js"
   },
   "bugs": {
     "url": "https://github.com/ychengke/monorepo/issues"
   },
   "dependencies": {
-    "company-util": "^0.9.0"
+    "mustache": "^4.2.0"
   },
-  "gitHead": "1dc7ab9303312a1acfc38efd111e2eabe3f08e5b"
+  "gitHead": "0e1ce16825d856ff237ef0d42fad6cfd732ca2da"
 }
