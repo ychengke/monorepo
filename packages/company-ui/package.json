@@ -6,6 +6,9 @@
   "homepage": "https://github.com/ychengke/monorepo#readme",
   "license": "ISC",
   "main": "lib/company-ui.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -26,5 +29,5 @@
   "dependencies": {
     "@monorepo/company-util": "file:packages/company-util"
   },
-  "gitHead": "552b0164f0e630b4c42f046a6e663afdb50d3e81"
+  "gitHead": "67d9c70f0a09de4cfff2d3ca9a8508fc58316e94"
 }
