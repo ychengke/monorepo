@@ -7,12 +7,12 @@
 1 notice cli v7.2.0
 2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
 3 verbose rootPath E:\WebStormProjects\monorepo
-4 verbose session 40239245e7f56f14
+4 verbose session b8cba9e784555034
 5 verbose user-agent lerna/7.2.0/node@v16.19.0+x64 (win32)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '7.2.0' }
 7 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
 8 verbose rootPath E:\WebStormProjects\monorepo
-9 info current version 0.5.0
+9 info current version 0.6.0
 10 silly isAnythingCommitted
 11 verbose isAnythingCommitted 1
 12 silly getCurrentBranch
@@ -22,32 +22,28 @@
 16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
 17 silly hasTags
 18 verbose hasTags true
-19 silly git-describe.sync "v0.5.0-1-gba37182" => {"lastTagName":"v0.5.0","lastVersion":"v0.5.0","refCount":"1","sha":"ba37182","isDirty":false}
-20 info Looking for changed packages since v0.5.0
+19 silly git-describe.sync "v0.6.0-1-g0e9605f" => {"lastTagName":"v0.6.0","lastVersion":"v0.6.0","refCount":"1","sha":"0e9605f","isDirty":false}
+20 info Looking for changed packages since v0.6.0
 21 silly checking diff packages/company-cli
 22 silly found diff in packages/company-cli/package.json
 23 verbose filtered diff [ 'packages/company-cli/package.json' ]
 24 silly checking diff packages/company-ui
-25 silly found diff in packages/company-ui/__tests__/company-ui.test.js
 25 silly found diff in packages/company-ui/package.json
-26 verbose filtered diff [
-26 verbose filtered diff   'packages/company-ui/__tests__/company-ui.test.js',
-26 verbose filtered diff   'packages/company-ui/package.json'
-26 verbose filtered diff ]
+26 verbose filtered diff [ 'packages/company-ui/package.json' ]
 27 silly checking diff packages/company-util
 28 silly found diff in packages/company-util/package.json
 29 verbose filtered diff [ 'packages/company-util/package.json' ]
 30 verbose updated company-cli
 31 verbose updated company-ui
 32 verbose updated company-util
-33 verbose git-describe undefined => "v0.5.0-1-gba37182"
-34 silly git-describe parsed => {"lastTagName":"v0.5.0","lastVersion":"v0.5.0","refCount":"1","sha":"ba37182","isDirty":false}
+33 verbose git-describe undefined => "v0.6.0-1-g0e9605f"
+34 silly git-describe parsed => {"lastTagName":"v0.6.0","lastVersion":"v0.6.0","refCount":"1","sha":"0e9605f","isDirty":false}
 35 info execute Skipping releases
 36 silly lifecycle No script for "preversion" in "monorepo", continuing
 37 silly lifecycle No script for "preversion" in "company-cli", continuing
 38 silly lifecycle No script for "preversion" in "company-util", continuing
-39 verbose version company-cli has no lockfile. Skipping lockfile update.
-40 verbose version company-util has no lockfile. Skipping lockfile update.
+39 verbose version company-util has no lockfile. Skipping lockfile update.
+40 verbose version company-cli has no lockfile. Skipping lockfile update.
 41 silly lifecycle No script for "version" in "company-util", continuing
 42 silly lifecycle No script for "preversion" in "company-ui", continuing
 43 silly lifecycle No script for "version" in "company-cli", continuing
@@ -61,10 +57,10 @@
 48 silly gitAdd   'packages/company-ui/package.json',
 48 silly gitAdd   'lerna.json'
 48 silly gitAdd ]
-49 silly gitCommit v0.6.0
-50 verbose git [ 'commit', '-m', 'v0.6.0' ]
-51 silly gitTag v0.6.0 git tag %s -m %s
-52 verbose git [ 'tag', 'v0.6.0', '-m', 'v0.6.0' ]
+49 silly gitCommit v0.7.0
+50 verbose git [ 'commit', '-m', 'v0.7.0' ]
+51 silly gitTag v0.7.0 git tag %s -m %s
+52 verbose git [ 'tag', 'v0.7.0', '-m', 'v0.7.0' ]
 53 silly lifecycle No script for "postversion" in "company-cli", continuing
 54 silly lifecycle No script for "postversion" in "company-ui", continuing
 55 silly lifecycle No script for "postversion" in "company-util", continuing
@@ -76,7 +72,7 @@
 60 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
 60 warn ENOLICENSE See https://choosealicense.com for additional guidance.
 61 silly getCurrentSHA
-62 verbose getCurrentSHA f2d8dbb52e12146408ddb5f53156eb721eb5172a
+62 verbose getCurrentSHA 35dcb5012a43cf897f4d2d016c31db1218385e7b
 63 silly lifecycle No script for "prepublish" in "monorepo", continuing
 64 silly lifecycle No script for "prepare" in "monorepo", continuing
 65 silly lifecycle No script for "prepublishOnly" in "monorepo", continuing
@@ -87,14 +83,14 @@
 70 silly lifecycle No script for "prepublish" in "company-util", continuing
 71 silly lifecycle No script for "prepare" in "company-cli", continuing
 72 silly lifecycle No script for "prepare" in "company-util", continuing
-73 silly lifecycle No script for "prepublishOnly" in "company-cli", continuing
-74 silly lifecycle No script for "prepublishOnly" in "company-util", continuing
-75 silly lifecycle No script for "prepack" in "company-cli", continuing
-76 silly lifecycle No script for "prepack" in "company-util", continuing
-77 silly lifecycle No script for "postpack" in "company-cli", continuing
-78 verbose packed packages\company-cli
-79 silly lifecycle No script for "postpack" in "company-util", continuing
-80 verbose packed packages\company-util
+73 silly lifecycle No script for "prepublishOnly" in "company-util", continuing
+74 silly lifecycle No script for "prepublishOnly" in "company-cli", continuing
+75 silly lifecycle No script for "prepack" in "company-util", continuing
+76 silly lifecycle No script for "prepack" in "company-cli", continuing
+77 silly lifecycle No script for "postpack" in "company-util", continuing
+78 verbose packed packages\company-util
+79 silly lifecycle No script for "postpack" in "company-cli", continuing
+80 verbose packed packages\company-cli
 81 verbose pack-directory packages\company-ui
 82 silly lifecycle No script for "prepublish" in "company-ui", continuing
 83 silly lifecycle No script for "prepare" in "company-ui", continuing
@@ -105,7 +101,7 @@
 88 silly lifecycle No script for "postpack" in "monorepo", continuing
 89 verbose publish company-cli
 90 verbose publish company-util
-91 silly FetchError: request to https://registry.npmjs.org/company-util failed, reason: read ECONNRESET
+91 silly FetchError: request to https://registry.npmjs.org/company-cli failed, reason: read ECONNRESET
 91 silly     at ClientRequest.<anonymous> (E:\WebStormProjects\monorepo\node_modules\minipass-fetch\lib\index.js:130:14)
 91 silly     at ClientRequest.emit (node:events:513:28)
 91 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
@@ -113,7 +109,7 @@
 91 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
 91 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
 91 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
-91 silly  FetchError: request to https://registry.npmjs.org/company-util failed, reason: read ECONNRESET
+91 silly  FetchError: request to https://registry.npmjs.org/company-cli failed, reason: read ECONNRESET
 91 silly     at ClientRequest.<anonymous> (E:\WebStormProjects\monorepo\node_modules\minipass-fetch\lib\index.js:130:14)
 91 silly     at ClientRequest.emit (node:events:513:28)
 91 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
@@ -126,10 +122,10 @@
 91 silly   syscall: 'read',
 91 silly   type: 'system'
 91 silly }
-92 warn notice Package failed to publish: company-util
-93 error ECONNRESET request to https://registry.npmjs.org/company-util failed, reason: read ECONNRESET
+92 warn notice Package failed to publish: company-cli
+93 error ECONNRESET request to https://registry.npmjs.org/company-cli failed, reason: read ECONNRESET
 94 error errno "ECONNRESET" is not a valid exit code - exiting with code 1
-95 silly FetchError: request to https://registry.npmjs.org/company-cli failed, reason: read ECONNRESET
+95 silly FetchError: request to https://registry.npmjs.org/company-util failed, reason: read ECONNRESET
 95 silly     at ClientRequest.<anonymous> (E:\WebStormProjects\monorepo\node_modules\minipass-fetch\lib\index.js:130:14)
 95 silly     at ClientRequest.emit (node:events:513:28)
 95 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
@@ -137,7 +133,7 @@
 95 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
 95 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
 95 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
-95 silly  FetchError: request to https://registry.npmjs.org/company-cli failed, reason: read ECONNRESET
+95 silly  FetchError: request to https://registry.npmjs.org/company-util failed, reason: read ECONNRESET
 95 silly     at ClientRequest.<anonymous> (E:\WebStormProjects\monorepo\node_modules\minipass-fetch\lib\index.js:130:14)
 95 silly     at ClientRequest.emit (node:events:513:28)
 95 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
@@ -150,10 +146,10 @@
 95 silly   syscall: 'read',
 95 silly   type: 'system'
 95 silly }
-96 warn notice Package failed to publish: company-cli
-97 error ECONNRESET request to https://registry.npmjs.org/company-cli failed, reason: read ECONNRESET
+96 warn notice Package failed to publish: company-util
+97 error ECONNRESET request to https://registry.npmjs.org/company-util failed, reason: read ECONNRESET
 98 error errno "ECONNRESET" is not a valid exit code - exiting with code 1
-99 error FetchError: request to https://registry.npmjs.org/company-util failed, reason: read ECONNRESET
+99 error FetchError: request to https://registry.npmjs.org/company-cli failed, reason: read ECONNRESET
 99 error     at ClientRequest.<anonymous> (E:\WebStormProjects\monorepo\node_modules\minipass-fetch\lib\index.js:130:14)
 99 error     at ClientRequest.emit (node:events:513:28)
 99 error     at TLSSocket.socketErrorListener (node:_http_client:494:9)
