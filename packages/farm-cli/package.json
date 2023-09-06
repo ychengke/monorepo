@@ -1,6 +1,6 @@
 {
   "name": "@ychengke/farm-cli",
-  "version": "0.10.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "ckyang <ckyang@travelsky.com.cn>",
   "homepage": "https://github.com/ychengke/monorepo#readme",
@@ -26,8 +26,5 @@
   "bugs": {
     "url": "https://github.com/ychengke/monorepo/issues"
   },
-  "gitHead": "6a923956aa2d0d7f7f99bcd59621083bfc6e23ef",
-  "dependencies": {
-
-  }
+  "gitHead": "6a923956aa2d0d7f7f99bcd59621083bfc6e23ef"
 }
