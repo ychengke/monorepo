@@ -1,5 +1,5 @@
 {
-  "name": "farm-ui",
+  "name": "@ychengke/farm-ui",
   "version": "0.10.0",
   "description": "> TODO: description",
   "author": "ckyang <ckyang@travelsky.com.cn>",
@@ -27,7 +27,7 @@
     "url": "https://github.com/ychengke/monorepo/issues"
   },
   "dependencies": {
-    "farm-util": "^0.10.0"
+    "@ychengke/farm-util": "^0.10.0"
   },
-  "gitHead": "0e1ce16825d856ff237ef0d42fad6cfd732ca2da"
+  "gitHead": "6a923956aa2d0d7f7f99bcd59621083bfc6e23ef"
 }
