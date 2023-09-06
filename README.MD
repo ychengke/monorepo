@@ -8,3 +8,17 @@
     "@monorepo/company-util": "file:packages/company-util"
   }
 ```
+lerna publish报错
+```
+lerna ERR! E402 You must sign up for private packages错误
+```
+原因：无法发布到私有包，当包名以@your-name开头时，npm publish会默认发布为私有包，但是 npm 的私有包需要付费，所以需要登录
+> npm login
+并且在package.json中加入
+```
+"publishConfig": {
+"access": "public"
+},
+```
+
+再执行lerna publish就能发布成功了！
